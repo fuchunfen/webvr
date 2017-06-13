@@ -705,7 +705,7 @@ interface VRWebGLLayer : VRLayer {
 // Coordinate Systems
 //
 
-interface VRCoordinateSystem : EventTarget {
+interface VRCoordinateSystem {
   Float32Array? getTransformTo(VRCoordinateSystem other);
 };
 
